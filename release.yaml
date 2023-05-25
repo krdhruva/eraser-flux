@@ -1,17 +1,17 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: eraser
+  name: eraser1
   namespace: eraser
 spec:
   targetNamespace: eraser-system
-  releaseName: eraser
+  releaseName: eraser2
   chart: eraser
     spec:
       chart: 
       sourceRef:
         kind: HelmRepository
-        name: eraser
+        name: eraser3
         namespace: eraser
       version: "1.0"
   interval: 1m0s
