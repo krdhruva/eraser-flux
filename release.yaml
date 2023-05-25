@@ -6,7 +6,7 @@ metadata:
 spec:
   targetNamespace: eraser-system
   releaseName: eraser
-  chart:
+  chart: eraser
     spec:
       chart: 
       sourceRef:
