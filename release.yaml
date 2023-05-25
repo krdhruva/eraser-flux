@@ -8,7 +8,7 @@ spec:
   releaseName: eraser
   chart:
     spec:
-      chart: eraser
+      chart: 
       sourceRef:
         kind: HelmRepository
         name: eraser
