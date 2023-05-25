@@ -13,7 +13,7 @@ spec:
         kind: HelmRepository
         name: eraser
         namespace: eraser
-      version: "1.x"
+      version: "1.0"
   interval: 5m0s
   install:
     remediation:
