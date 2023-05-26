@@ -16,7 +16,6 @@ spec:
       version: "1.x"
   interval: 1m0s
   install:
-    createNamespace: true
-  install:
+    createNamespace: true  
     remediation:
       retries: 3
