@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: eraser3
+  name: eraser-repo
   namespace: eraser
 spec:
   interval: 1m0s
