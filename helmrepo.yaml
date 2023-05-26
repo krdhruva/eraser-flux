@@ -6,4 +6,4 @@ metadata:
 spec:
   interval: 1m0s
   url: https://azure.github.io/eraser/charts
-  provider: github
+  provider: generic
