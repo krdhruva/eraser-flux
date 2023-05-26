@@ -5,6 +5,5 @@ metadata:
   namespace: eraser
 spec:
   interval: 1m0s
-  type: oci
-  url: oci://azure.github.io/eraser/charts
-  provider: azure
+  url: https://azure.github.io/eraser/charts
+  provider: github
