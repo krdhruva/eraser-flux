@@ -4,3 +4,4 @@ namespace: eraser
 resources:
   - helmrepo.yaml
   - release.yaml
+  - namespace.yaml
