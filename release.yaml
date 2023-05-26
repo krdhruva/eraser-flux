@@ -11,7 +11,7 @@ spec:
       chart: eraser
       sourceRef:
         kind: HelmRepository
-        name: eraser3
+        name: eraser-repo
         namespace: eraser
       version: "1.x"
   interval: 1m0s
